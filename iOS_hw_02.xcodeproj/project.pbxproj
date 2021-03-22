@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43460F352607018300B65FC2 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43460F342607018300B65FC2 /* SwiftUIView.swift */; };
 		43A0F1EB2600FC50005A0314 /* iOS_hw_02App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A0F1EA2600FC50005A0314 /* iOS_hw_02App.swift */; };
 		43A0F1ED2600FC50005A0314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A0F1EC2600FC50005A0314 /* ContentView.swift */; };
 		43A0F1EF2600FC53005A0314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A0F1EE2600FC53005A0314 /* Assets.xcassets */; };
 		43A0F1F22600FC53005A0314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A0F1F12600FC53005A0314 /* Preview Assets.xcassets */; };
+		43A0F1FC2601012A005A0314 /* distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A0F1FB2601012A005A0314 /* distribute.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43460F342607018300B65FC2 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		43A0F1E72600FC50005A0314 /* iOS_hw_02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_hw_02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A0F1EA2600FC50005A0314 /* iOS_hw_02App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_hw_02App.swift; sourceTree = "<group>"; };
 		43A0F1EC2600FC50005A0314 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43A0F1EE2600FC53005A0314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43A0F1F12600FC53005A0314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43A0F1F32600FC53005A0314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A0F1FB2601012A005A0314 /* distribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distribute.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				43A0F1EA2600FC50005A0314 /* iOS_hw_02App.swift */,
 				43A0F1EC2600FC50005A0314 /* ContentView.swift */,
+				43460F342607018300B65FC2 /* SwiftUIView.swift */,
+				43A0F1FB2601012A005A0314 /* distribute.swift */,
 				43A0F1EE2600FC53005A0314 /* Assets.xcassets */,
 				43A0F1F32600FC53005A0314 /* Info.plist */,
 				43A0F1F02600FC53005A0314 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43A0F1ED2600FC50005A0314 /* ContentView.swift in Sources */,
+				43A0F1FC2601012A005A0314 /* distribute.swift in Sources */,
+				43460F352607018300B65FC2 /* SwiftUIView.swift in Sources */,
 				43A0F1EB2600FC50005A0314 /* iOS_hw_02App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
